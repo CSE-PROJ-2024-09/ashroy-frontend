@@ -26,11 +26,16 @@ const Home = () => {
       <section className="mb-4">
         <SectionHeader title="About Us" />
         <p className="text-muted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorum
-          dolores molestiae porro blanditiis, alias nulla aspernatur eveniet
-          dolor ullam voluptate, maxime beatae necessitatibus? Cupiditate
-          quaerat odio officiis enim modi, sed ratione optio minima sunt id,
-          expedita aperiam totam quos.
+          ASHROY IS a big hub of kindness, connecting people who care with
+          opportunities to make a real difference in the lives of those who need
+          help. It's not just a website; it's a friendly place where technology
+          meets compassion, making it easier for everyone to contribute to
+          making the world a better place. In the culturally diverse landscape
+          of West Bengal, ASHROY will emerge as a user-friendly and accessible
+          online platform, uniting individuals with non-profitable organizations
+          (NGOs) dedicated to noble causes. This initiative simplifies the
+          process of discovering and engaging with entities devoted to animal
+          welfare, elderly care, and child well-being.
         </p>
       </section>
 

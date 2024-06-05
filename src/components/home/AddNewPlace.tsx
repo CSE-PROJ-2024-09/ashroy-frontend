@@ -15,7 +15,7 @@ const AddNewPlace = () => {
   const [phone, setPhone] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [website, setWebsite] = useState<string>("");
-  const [sectors, setSectors] = useState<string>("");
+  const [sector, setSector] = useState<string>("");
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
@@ -35,7 +35,7 @@ const AddNewPlace = () => {
 
     const dbRef = ref(database, `data/${type}`);
     const id = uuidv4();
-    const sectorsArray = sectors.split(",");
+    const sectorsArray = sector.split(",");
 
     push(dbRef, {
       id,
@@ -45,7 +45,7 @@ const AddNewPlace = () => {
       website,
       image,
       email,
-      sectors: sectorsArray,
+      sector: sectorsArray,
     })
       .then((res) => {
         console.log(res);
@@ -64,7 +64,7 @@ const AddNewPlace = () => {
     setPhone("");
     setEmail("");
     setWebsite("");
-    setSectors("");
+    setSector("");
   };
 
   return isAuthenticated ? (
@@ -178,17 +178,17 @@ const AddNewPlace = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="sectors" className="form-label">
+        <label htmlFor="sector" className="form-label">
           Add Sectors
         </label>
         <input
           type="text"
-          value={sectors}
+          value={sector}
           onChange={(e) => {
-            setSectors(e.target.value);
+            setSector(e.target.value);
           }}
           className="form-control"
-          id="sectors"
+          id="sector"
           placeholder="Enter Sectors separated with comma"
         />
       </div>

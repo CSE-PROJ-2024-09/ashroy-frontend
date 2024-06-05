@@ -6,7 +6,7 @@ interface CommonAttributes {
   phone: string;
   email: string;
   website: string;
-  sectors: string[];
+  sector: string[];
 }
 
 export interface OrphanageData extends CommonAttributes {}

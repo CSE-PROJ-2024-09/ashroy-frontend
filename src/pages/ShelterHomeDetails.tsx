@@ -68,7 +68,7 @@ const ShelterHomeDetails = () => {
       </div>
       <h4>Our Services</h4>
       <ul className="row">
-        {data.sectors.map((service) => (
+        {data.sector.map((service) => (
           <li className="col-md-6" key={service}>
             {service}
           </li>
