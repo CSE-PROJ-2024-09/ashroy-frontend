@@ -133,7 +133,3 @@ We welcome contributions to Ashroy! Here’s how you can contribute:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions, feel free to contact us at [mallickdebajit3@gmail.com].
