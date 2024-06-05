@@ -4,7 +4,7 @@
 
 # Ashroy
 
-Ashroy is a web application aimed at listing orphanages, animal welfare organizations, elderly homes, and shelter homes all in one place. This project is built using ReactJS, Vite, Bootstrap, Firebase, React Toastify and TypeScript.
+Ashroy is a web application aimed at listing orphanages, animal welfare organizations, elderly homes, and shelter homes all in one place. This project is built using ReactJS, Vite, Bootstrap, Firebase, React Icons and TypeScript.
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@ Ashroy aims to provide a comprehensive and accessible platform where users can f
 - **Vite**: A build tool that provides a faster and leaner development experience for modern web projects.
 - **Bootstrap**: A CSS framework for developing responsive and mobile-first websites.
 - **Firebase**: A platform developed by Google for creating mobile and web applications.
-- **React Toastify**: A React library to add alerts to your app with ease.
+- **React Icons**: A React library to add icons to your app with ease.
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 
 ## Installation
@@ -59,18 +59,18 @@ Follow these steps to set up the project locally:
    Create a `firebaseConfig.ts` file in the `src` directory and add your Firebase configuration:
 
    ```typescript
-   import { initializeApp } from 'firebase/app';
-   import { getDatabase } from 'firebase/database';
-   import { getAuth } from 'firebase/auth';
+   import { initializeApp } from "firebase/app";
+   import { getDatabase } from "firebase/database";
+   import { getAuth } from "firebase/auth";
 
    const firebaseConfig = {
-     apiKey: 'YOUR_API_KEY',
-     authDomain: 'YOUR_AUTH_DOMAIN',
-     databaseURL: 'YOUR_DATABASE_URL',
-     projectId: 'YOUR_PROJECT_ID',
-     storageBucket: 'YOUR_STORAGE_BUCKET',
-     messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-     appId: 'YOUR_APP_ID',
+     apiKey: "YOUR_API_KEY",
+     authDomain: "YOUR_AUTH_DOMAIN",
+     databaseURL: "YOUR_DATABASE_URL",
+     projectId: "YOUR_PROJECT_ID",
+     storageBucket: "YOUR_STORAGE_BUCKET",
+     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+     appId: "YOUR_APP_ID",
    };
 
    const app = initializeApp(firebaseConfig);
